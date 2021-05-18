@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "Webpack",
+  "version": "1.0.0",
+  "description": "webpack init",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "cross-env NODE_ENV=production webpack",
+    "build-dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevGGPro/Webpack.git"
+  },
+  "keywords": [],
+  "author": "DevGGPro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevGGPro/Webpack/issues"
+  },
+  "homepage": "https://github.com/DevGGPro/Webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.2.15",
+    "postcss-loader": "^5.3.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
